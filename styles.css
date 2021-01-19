@@ -1,0 +1,66 @@
+/* Master styles */
+body {
+    margin: 0px;
+}
+
+nav {
+    display: grid;
+    grid-template-columns: 1fr;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-menu {
+    display: flex;
+}
+
+.nav-menu li {
+    margin: 10px;
+    list-style: none;
+    font-size: 0.9em;
+    height: 22px;
+    border-bottom: 1px solid transparent;
+    transition: border-bottom 0.5s;
+}
+
+.nav-menu li a {
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #8a8a8a;
+    transition: color 0.5s;
+}
+
+.nav-menu li a:hover {
+    color: black;
+}
+
+.nav-menu li:hover {
+    border-bottom: 1px solid black;
+}
+
+.user-login {
+    margin-top: 23px;
+}
+
+/* Portfolio styles */
+
+.portfolio-items-wrapper {
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.portfolio-item-wrapper {
+    position: relative;
+}
+
+.portfolio-img-background {
+    height: 30px;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
